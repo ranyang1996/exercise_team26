@@ -21,16 +21,21 @@
     <h2>Welcome back,</h2>
     <label>
       <span>Email</span>
-      <input type="email" />
+        <?=$this->Form->control('email',
+            array('label'=>false,
+                'class'=>'form-control',))?>
     </label>
     <label>
       <span>Password</span>
-      <input type="password" />
+        <?=$this->Form->control('password',
+            array('label'=>false,
+                'class'=>'form-control',))?>
     </label>
-    <p class="forgot-pass">Forgot password?</p>
-    <button type="button" class="submit">Sign In</button>
+     <label>
+    <a class="forgot-pass" href="http://Google.com">Forgot password?</a></label>
+    <label> <button type="button" class="submit">Sign In</button></label>
 
-  </div>
+
   <div class="sub-cont">
     <div class="img">
       <div class="img__text m--up">
@@ -85,9 +90,7 @@
   </div>
 </div>
 
-<a href="https://dribbble.com/shots/3306190-Login-Registration-form" target="_blank" class="icon-link">
-  <img src="http://icons.iconarchive.com/icons/uiconstock/socialmedia/256/Dribbble-icon.png">
-</a>
+
 <a href="https://twitter.com/NikolayTalanov" target="_blank" class="icon-link icon-link--twitter">
   <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png">
 </a>
