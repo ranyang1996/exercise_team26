@@ -1,0 +1,197 @@
+h1 {
+    position: center;
+    text-align: center;
+    background: #FF8C00;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+
+#sidebar ul li {
+    position: relative;
+}
+
+#sidebar .sub-menu > .sub li  {
+    padding-left: 32px;
+}
+
+#sidebar .sub-menu > .sub li:last-child {
+    padding-bottom: 10px;
+}
+p{
+    position: center;
+    text-align: center;
+    color: #454545;
+}
+
+label {
+
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+
+header{
+    background-size: 100% 100%;
+}
+
+
+body *:focus {
+    outline: 0;
+}
+
+form {
+    position: center;
+    top: 100px;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    max-width: 1000px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 32px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 2px 4px -2px #cccccc;
+}
+
+form label {
+    display: block;
+    font-weight: 900;
+    margin-bottom: 6px;
+    color:#FF8C00;
+}
+
+form input[type="text"] {
+    display: block;
+    height: 36px;
+    margin-bottom: 8px;
+    padding: 0 36px 0 10px;
+    border: 2px solid #cccccc;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+form input[type="email"] {
+    display: block;
+    height: 36px;
+    margin-bottom: 8px;
+    padding: 0 36px 0 10px;
+    border: 2px solid #cccccc;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+form input[type="password"] {
+    display: block;
+    height: 36px;
+    margin-bottom: 8px;
+    padding: 0 36px 0 10px;
+    border: 2px solid #cccccc;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+
+form input[type="postcode"] {
+    display: block;
+    height: 36px;
+    margin-bottom: 8px;
+    padding: 0 36px 0 10px;
+    border: 2px solid #cccccc;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+form input[type="number"] {
+    display: block;
+    height: 36px;
+    margin-bottom: 8px;
+    padding: 0 36px 0 10px;
+    border: 2px solid #cccccc;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+form input[type="date"] {
+    display: block;
+    height: 36px;
+    margin-bottom: 8px;
+    padding: 0 36px 0 10px;
+    border: 2px solid #cccccc;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+/*.buttons {
+
+    height: 36px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background-color: #FF8C00; !* Orange background *!
+    border: 1px solid #FF8C00; !* Orange border *!
+    color: white; !* White text *!
+    padding: 10px 20px; !* Some padding *!
+    cursor: pointer; !* Pointer/hand icon *!
+    float: left; !* Float the buttons side by side *!
+    display: inline-block;
+}*/
+
+form input[type="submit"]  {
+    background-color: #F7B209; /* Green background */
+    border: 1px solid darkgray; /* Green border */
+    color: white; /* White text */
+    margin-bottom: 8px;
+    margin-right: 20px;
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+
+
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+form input[type="submit"]:hover {
+    background-color: #d33d44;
+}
+
+form ul.helper-text {
+    display: block;
+    font-weight: bold;
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #de2d0f;
+}
+form ul.helper-text li.valid {
+    color: #1fd34a;
+}
+form.valid input {
+    border: 2px solid #1fd34a;
+}
+
+#logincontainer {
+    position: relative;
+    left: 50%;
+    top: 5%;
+}
+
+#sidenote {
+    position: absolute;
+}
+
+#registerbutton {
+    position: relative;
+    top: -108.25vh;
+    left: 64vw;
+}
+
+

@@ -1,0 +1,170 @@
+/*
+Registration/Login Form by html-form-guide.com
+You can customize all the aspects of the form in this style sheet
+*/
+
+#registration_page fieldset
+{
+    width: 1030px;
+    padding:20px;
+    border:1px solid #ccc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+
+}
+
+#registration_page legend, #registration_page h2
+{
+    font-family : Arial, sans-serif;
+    font-size: 2.6em;
+    font-weight:bold;
+    color:#007ba4;
+
+}
+
+#registration_page label
+{
+    font-family : Arial, Helvetica, sans-serif;
+    font-size:1.2em;
+    font-weight: bold;
+    color: #00A5E3;
+}
+
+#registration_page input[type="text"],#registration_page textarea,
+#registration_page input[type="password"]
+{
+    font-family : Arial, Verdana, sans-serif;
+    font-size: 1.2em;
+    line-height:180%;
+    color : #000;
+    padding : 3px;
+    border : 1px solid #999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+
+
+}
+
+#registration_page input[type="text"],
+#registration_page input[type="password"]
+{
+    height:25px;
+    width:300px;
+}
+
+#registration_page #scaptcha
+{
+    width:60px;
+    height:18px;
+}
+
+#registration_page input[type="submit"]
+{
+    width:120px;
+    height:50px;
+    padding-left:0px;
+}
+
+#registration_page textarea
+{
+    height:120px;
+    width:310px;
+}
+
+#registration_page input[type="text"]:focus,
+#registration_page textarea:focus
+{
+    color : #009;
+    border : 1px solid #990000;
+    background-color : #ffff99;
+    font-weight:bold;
+}
+
+#registration_page .container
+{
+    margin-top:8px;
+    margin-bottom: 18px;
+}
+
+#registration_page .error
+{
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 0.7em;
+    color: #900;
+    background-color : #ffff00;
+}
+
+#registration_page #register_password_errorloc
+{
+    clear:both;
+}
+
+#registration_page  fieldset#antispam
+{
+    padding:2px;
+    border-top:1px solid #EEE;
+    border-left:0;
+    border-right:0;
+    border-bottom:0;
+    width:350px;
+}
+
+#registration_page fieldset#antispam legend
+{
+    font-family : Arial, sans-serif;
+    font-size: 0.8em;
+    font-weight:bold;
+    color:#333;
+}
+
+#registration_page .short_explanation
+{
+    font-family : Arial, sans-serif;
+    font-size: 0.8em;
+    color:#333;
+}
+
+/* spam_trap: This input is hidden. This is here to trick the spam bots*/
+#registration_page .spmhidip
+{
+    display:none;
+    width:10px;
+    height:3px;
+}
+#registration_page #fg_crdiv
+{
+    font-family : Arial, sans-serif;
+    font-size: 0.3em;
+    opacity: .2;
+    -moz-opacity: .2;
+    filter: alpha(opacity=20);
+}
+#registration_page  #fg_crdiv p
+{
+    display:none;
+}
+
+#registration_page_content li
+{
+    font-family : Arial, sans-serif;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+#registration_page_content
+{
+    font-family : Arial, sans-serif;
+    font-size: 0.9em;
+    line-height: 150%
+}
+
+#registration_page_content h2
+{
+    font-family : Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight:bold;
+    color:#333;
+}
